@@ -17,31 +17,43 @@
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
+
 // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 30px) {
+    .container{
+        background-color: maroon;
+        font-size: 12px;
+        color: white;
+    }
+
+    .jumbotron{
+        background-color:maroon;
+    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .container{
-        background-color: lightslategray;
+        background-color: maroon;
         font-size: 12px;
-        color: black;
+        color: white;
     }
 
     .jumbotron{
-        background-color:lightslategray;
+        background-color:maroon;
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
     .container{
-        background-color:lightblue;
+        background-color:maroon;
         font-size: 12px;
-        color: black;
+        color: white;
     }
 
     .jumbotron{
-        background-color:lightblue;
+        background-color:maroon;
     }
 
 } 
@@ -49,13 +61,13 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .container{
-        background-color: gray;
+        background-color: darkblue;
         font-size: 14px;
         color:white;
     }
 
     .jumbotron{
-        background-color: gray;
+        background-color: darkblue;
         color:white;
     }
 }
